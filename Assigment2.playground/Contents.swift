@@ -67,7 +67,7 @@ var counter = 9
 
 while num >= 1 {
     counter -= 1
-    reversedNum = reversedNum + ((num%10)*(Int(pow(Double(10),Double(counter)))))
+    reversedNum += ((num%10)*(Int(pow(Double(10),Double(counter)))))
     num = num / 10
 }
 
