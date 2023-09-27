@@ -34,7 +34,7 @@ var sumOfNumbers: Int = 0
 while oddNumber < 100 {
     oddNumber += 1
     if oddNumber % 2 != 0 {
-        sumOfNumbers += number
+        sumOfNumbers += oddNumber
     }
 }
 
