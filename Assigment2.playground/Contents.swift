@@ -1,5 +1,8 @@
 import UIKit
 
+
+
+
 //პირველი
 var a = 12
 var b = 34
@@ -45,8 +48,8 @@ print("\n\(sumOfNumbers)")
 var fullName = "NikaRazmadze"
 var newName: String = ""
 
-for char in fullName.reversed() {
-    newName += String(char)
+for char in fullName {
+    newName = String(char) + newName
 }
 
 print(fullName,newName)
